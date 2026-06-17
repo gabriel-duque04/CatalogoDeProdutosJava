@@ -17,7 +17,7 @@ import java.sql.Timestamp;
 public class Produto {
     @Id
     @GeneratedValue
-    private int id;
+    private Integer id;
 
     @Column(name = "Nome")
     private String nome;
@@ -29,7 +29,7 @@ public class Produto {
     private double preco;
 
     @Column(name = "CategoriaId")
-    private int categoriaId;
+    private Integer categoriaId;
 
     @Column(name = "Ativo")
     private boolean ativo;

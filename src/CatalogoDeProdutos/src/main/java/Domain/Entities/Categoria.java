@@ -18,7 +18,7 @@ import java.sql.Timestamp;
 public class Categoria {
     @Id
     @GeneratedValue
-    private int id;
+    private Integer id;
 
     @Column(name = "Nome")
     private String nome;
