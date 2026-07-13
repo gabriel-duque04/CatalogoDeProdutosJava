@@ -1,10 +1,11 @@
 package Application.Ports.PortsRepositories;
 
 import Domain.Entities.Categoria;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
-public interface ICategoriaRepository {
+public interface ICategoriaRepository extends JpaRepository {
 
     public Optional<Categoria> getCategoriaById(Integer id);
 
