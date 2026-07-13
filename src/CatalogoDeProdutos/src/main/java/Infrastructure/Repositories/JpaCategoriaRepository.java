@@ -1,12 +1,14 @@
 package Infrastructure.Repositories;
 
 import Application.Ports.PortsRepositories.ICategoriaRepository;
+import Application.Ports.PortsRepositories.JpaSpringCategoriaRepository;
 import Domain.Entities.Categoria;
 import Infrastructure.JpaEntities.*;
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.jpa.repository.JpaRepository;
+@RequiredArgsConstructor
+public class JpaCategoriaRepository implements JpaSpringCategoriaRepository {
 
-public class JpaCategoriaRepository implements ICategoriaRepository {
-
-
+    private final JpaSpringCategoriaRepository repository;
 
 }
