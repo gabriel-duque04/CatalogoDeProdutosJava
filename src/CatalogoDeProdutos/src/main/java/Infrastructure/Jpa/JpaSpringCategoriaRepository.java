@@ -1,4 +1,4 @@
-package Application.Ports.PortsRepositories;
+package Infrastructure.Jpa;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

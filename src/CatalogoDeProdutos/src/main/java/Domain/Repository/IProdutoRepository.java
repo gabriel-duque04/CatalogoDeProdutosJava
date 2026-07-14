@@ -1,8 +1,7 @@
-package Application.Ports.PortsRepositories;
+package Domain.Repository;
 
-import Domain.Entities.Produto;
+import Domain.Model.Produto;
 
-import java.util.Iterator;
 import java.util.Optional;
 
 public interface IProdutoRepository {

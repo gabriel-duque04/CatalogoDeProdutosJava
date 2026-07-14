@@ -1,12 +1,5 @@
-package Domain.Entities;
+package Domain.Model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import lombok.*;
-
-import java.sql.Time;
 import java.sql.Timestamp;
 
 public class Categoria {

@@ -1,4 +1,4 @@
-package Infrastructure.Repositories.JpaEntities;
+package Infrastructure.Jpa.JpaEntities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
