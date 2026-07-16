@@ -1,6 +1,0 @@
-package Infrastructure.Jpa;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface JpaSpringCategoriaRepository extends JpaRepository {
-}

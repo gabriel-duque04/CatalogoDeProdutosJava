@@ -4,7 +4,7 @@ import Domain.Model.Produto;
 
 import java.util.Optional;
 
-public interface IProdutoRepository {
+public interface ProdutoRepository {
 
     public Optional<Produto> getProdutoById(Integer id);
 

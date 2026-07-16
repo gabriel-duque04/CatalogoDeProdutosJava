@@ -6,7 +6,7 @@ import Domain.Model.Categoria;
 import java.util.Optional;
 
 
-public interface ICategoriaRepository{
+public interface CategoriaRepository {
 
     public Optional<Categoria> getCategoriaById(Integer id);
 
